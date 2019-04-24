@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Pokedex from './components/pokedex';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
           <p>
             Pokedex coming soon...
           </p>
+          <Pokedex />
         </header>
       </div>
     );
